@@ -1,0 +1,59 @@
+.start{
+    display: flex;
+    justify-content: center;
+}
+
+.nav{
+
+    display: flex;
+
+    margin-top:20px;
+    
+}
+
+.nav a:link{
+ 
+    text-transform: capitalize;
+    padding: 20px;
+    font-size: 1.5rem;
+}
+
+.nav a:visited{
+
+    color: white;
+    font-weight: bold;
+
+
+}
+
+.second{
+
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+}
+
+.dapp{
+    margin:50px;
+
+}
+
+.dapp h1{
+    text-transform: capitalize;
+    color: white;
+}
+
+
+.image{
+
+
+}
+
+
+.image img{
+    width: 300px;
+    height: 300px;
+    object-fit:center;
+    border-radius:50px;
+    
+}

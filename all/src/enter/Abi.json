@@ -1,0 +1,106 @@
+[
+	{
+		"inputs": [],
+		"name": "delt",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "string",
+				"name": "name1",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name2",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name3",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name4",
+				"type": "string"
+			}
+		],
+		"name": "Enteraddress",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [],
+		"name": "getUser",
+		"outputs": [
+			{
+				"components": [
+					{
+						"internalType": "string",
+						"name": "name_1",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name_2",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name_3",
+						"type": "string"
+					},
+					{
+						"internalType": "string",
+						"name": "name_4",
+						"type": "string"
+					}
+				],
+				"internalType": "struct Funder.Body",
+				"name": "",
+				"type": "tuple"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "address",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"name": "Hotal",
+		"outputs": [
+			{
+				"internalType": "string",
+				"name": "name_1",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name_2",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name_3",
+				"type": "string"
+			},
+			{
+				"internalType": "string",
+				"name": "name_4",
+				"type": "string"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]

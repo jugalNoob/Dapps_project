@@ -1,0 +1,189 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+
+    background-color: rgb(0, 0, 0) !important;
+    width: 100%;
+    height: 100%;
+}
+
+
+.web_account{
+
+    text-align: center;
+    margin-top: 50px;
+}
+
+
+.web_account h2{
+
+    text-transform: capitalize;
+    color: white;
+    
+}
+
+
+.web_account h1{
+    color: white;
+    font-size: 1.4rem;
+}
+
+.center{
+    margin-top: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) !important;
+
+
+
+}
+
+
+
+
+.enters{
+
+
+}
+
+
+
+.enters h1{
+    color: white;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+}
+
+.enters input[type="text"]{
+
+
+    border: none !important;
+    outline: none !important;
+    margin-left: 100px;
+    margin-top: 30px;
+    width: 200px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: gray !important;
+
+    color:white !important;
+}
+
+
+.enters input[type="text"]::placeholder{
+
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold !important;
+}
+
+.enters input[type="submit"]{
+
+    width: 100px;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-transform: capitalize;
+    border: none !important;
+    outline: none !important;
+    border-radius: 7px;
+    padding: px !important;
+    margin-top: 20px;
+    background-color:rgb(255, 0, 43);
+    color: white;
+    margin-left: 150px;
+}
+
+
+
+.webForm{
+
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.webForm input[type="text"]{
+
+
+    border: none !important;
+    outline: none !important;
+    /* margin-left: 100px;
+    margin-top: 30px; */
+    width: 200px;
+    padding: 7px;
+    border-radius: 7px;
+    background-color: gray !important;
+
+    color:white !important;
+}
+
+.webForm input[type="text"]::placeholder{
+
+    color:white !important;
+    color:white;
+    text-transform: capitalize;
+    font-weight: bold !important;
+
+}
+
+.webForm input[type="submit"]{
+
+    width: 130px;
+    font-weight: bold !important;
+    font-size: 1rem !important;
+    text-transform: capitalize;
+    border: none !important;
+    outline: none !important;
+    border-radius: 7px;
+    padding: 8px !important;
+    margin-top: 20px;
+    background-color:rgb(6, 197, 255);
+    color: white;
+    margin-left: 45px;
+  
+    
+}
+
+
+
+.button_one{
+
+    margin-top: 50px;
+    border: none !important;
+    outline: none !important;
+    padding:10px;
+    text-align: center;
+    text-transform: capitalize;
+    border-radius:8px;
+
+}
+.button_one button{
+    border-radius:8px;
+    padding: 8px;
+    font-weight: bold;
+    background-color:rgb(10, 192, 49);
+    color: white;
+}
+
+.button_two{
+    margin-top: 10px;
+    border: none !important;
+    outline: none !important;
+    padding:10px;
+    text-align: center;
+    text-transform: capitalize;
+
+}
+
+
+.button_two button{
+    border-radius:8px;
+    padding: 8px;
+    font-weight: bold;
+    background-color:rgb(255, 177, 7);
+    color: white;
+}
